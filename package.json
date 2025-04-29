@@ -10,8 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/{{ org }}/js_checkpoint2.git"
   },
-  "workspaces": ["client", "server"],
+  "workspaces": [
+    "client",
+    "server",
+    "algo"
+  ],
   "scripts": {
+    "algo:test:1": "npm run test:1 --workspace=algo",
+    "algo:test:2": "npm run test:2 --workspace=algo",
+    "algo:test:3": "npm run test:3 --workspace=algo",
+    "algo:test:4": "npm run test:4 --workspace=algo",
+    "algo:test": "npm run test --workspace=algo",
     "build": "npm run build --workspaces --if-present",
     "check": "biome check --error-on-warnings --no-errors-on-unmatched --staged . && npm run check-types --workspaces --if-present",
     "check:fix": "biome check --write --error-on-warnings --no-errors-on-unmatched --staged .",
