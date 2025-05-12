@@ -65,7 +65,6 @@ Ton objectif est de voir où tu en es sur :
 - [ ] L'utilisation des props
 - [ ] L'utilisation des states
 - [ ] L'utilisation de `map` et `filter`
-- [ ] Les loaders dans React Router
 - [ ] Le hook `useEffect`
 - [ ] La création de composants React
 - [ ] La création de routes avec React Router
