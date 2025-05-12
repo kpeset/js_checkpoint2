@@ -18,10 +18,11 @@ function Instructions() {
           <a href="http://localhost:3310/api/cupcakes">
             http://localhost:3310/api/cupcakes
           </a>{" "}
-          In the <code>client/src/pages/CupcakeList.tsx</code> file (which
+          in the <code>client/src/pages/CupcakeList.tsx</code> file (which
           handles the
-          <code>/cupcakes</code> route), use the <em>useEffect</em> hook to
-          fetch the data and <em>useState</em> to store the cupcake data.
+          <code>/cupcakes</code> route). Use the <strong>useEffect</strong> hook
+          to fetch the data and <strong>useState</strong> to store the{" "}
+          <em>cupcakes</em>.
         </p>
         <p>
           You can check the result with a <code>console.info</code> for this
