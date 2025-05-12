@@ -1,7 +1,7 @@
 import Cupcake from "../components/Cupcake";
 
 /* ************************************************************************* */
-const sampleCupcakes = [
+const sampleCupcakes: CupcakeArray = [
   {
     id: 10,
     accessory_id: "4",

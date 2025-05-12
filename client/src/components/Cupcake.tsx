@@ -1,13 +1,7 @@
 import "./Cupcake.css";
 
 interface CupcakeProps {
-  data: {
-    accessory: string;
-    color1: string;
-    color2: string;
-    color3: string;
-    name: string;
-  };
+  data: Cupcake;
 }
 
 function Cupcake({ data }: CupcakeProps) {
